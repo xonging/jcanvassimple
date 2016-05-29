@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1" />
+    <title>jcanvas</title>
+    <script type="text/javascript" src="jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="jcanvas.min.js"></script>
+    <script type="text/javascript" language="javascript">
+        var json2 = {
+            "labels": "未分类",
+            "layers": [{
+                "uuid": "0846FF97-3BF1-4CAF-953D-0D6B60CC406E",
+                "category": 0,
+                "resource": "http:\/\/design.zaowu.net.cn\/1009961\/20160525\/1747675f99b1b58dd2e16b647f4b4cf900855c20",
+                "cx": 92.5,
+                "isUpload": true,
+                "width": 185,
+                "cy": 131,
+                "editable": true,
+                "type": 1,
+                "alignment": 0,
+                "templateDesign": 1,
+                "alpha": 1,
+                "height": 262,
+                "matrix": "[\n  1,\n  0,\n  0,\n  0,\n  1,\n  0,\n  0,\n  0,\n  1\n]",
+                "content": "http:\/\/design.zaowu.net.cn\/1009961\/20160525\/1747675f99b1b58dd2e16b647f4b4cf900855c20"
+            }, {
+                "uuid": "E1021E00-1A60-4195-9163-74ECE784D655",
+                "category": 0,
+                "rotation": 0,
+                "font": {
+                    "name": "huxiaobo-gdh",
+                    "size": 25,
+                    "color": {
+                        "red": 0,
+                        "alpha": 255,
+                        "blue": 0,
+                        "green": 0
+                    }
+                },
+                "cx": 92.5,
+                "width": 185,
+                "cy": 131,
+                "editable": true,
+                "type": 0,
+                "alignment": 1,
+                "templateDesign": 1,
+                "alpha": 1,
+                "height": 262,
+                "matrix": "[\n  1,\n  0,\n  0,\n  0,\n  1,\n  0,\n  0,\n  0,\n  1\n]",
+                "content": "点点滴滴"
+            }],
+            "pic": "http:\/\/design.zaowu.net.cn\/1009961\/20160525\/2c3b402fbea2f5432e6f70f319f07e029388f61a",
+            "preview": "http:\/\/design.zaowu.net.cn\/1009961\/20160525\/f8047a3b1e49032bac1c7c74769048929ed763c7",
+            "uuid": "2EB40315-EC75-4B7F-9762-FCADDCAAE321",
+            "version": "iOS1.7.7",
+            "name": "我的作品",
+            "item": 5
+        };
+
+        var json = {
+            "labels": "未分类",
+            "layers": [{
+                "templateDesign": 1,
+                "content": "http://design.zaowu.net.cn/admin/1431770217.87.png",
+                "category": 0,
+                "matrix": "[\n  0.644582615490804,\n  0.1022868646931499,\n  -43.94663579516416,\n  -0.1022868646931499,\n  0.644582615490804,\n  -77.70338341377425,\n  0,\n  0,\n  1\n]",
+                "resource": "http://design.zaowu.net.cn/admin/1431770217.87.png",
+                "alpha": 1,
+                "uuid": "25D31825-6E32-4472-A608-1DE8B2833188",
+                "editable": true,
+                "alignment": 0,
+                "type": 1,
+                "isUpload": true
+            }, {
+                "uuid": "10DCAFB7-8E60-4AEF-8135-4F4AE36E2064",
+                "category": 0,
+                "resource": "http://design.zaowu.net.cn/1009961/20160525/2fbb19c50340eb948af1642b889e6ad45f22ed38",
+                "isUpload": true,
+                "width": 185,
+                "editable": true,
+                "type": 1,
+                "alignment": 0,
+                "templateDesign": 1,
+                "alpha": 1,
+                "height": 262,
+                "matrix": "[\n  1,\n  0,\n  0,\n  0,\n  1,\n  0,\n  0,\n  0,\n  1\n]",
+                "content": "http://design.zaowu.net.cn/1009961/20160525/2fbb19c50340eb948af1642b889e6ad45f22ed38"
+            }],
+            "pic": "http:\/\/design.zaowu.net.cn\/1009961\/20160525\/1d3745f6c38216748805cf6b9a4ff9c0e803dcc2",
+            "preview": "http:\/\/design.zaowu.net.cn\/1009961\/20160525\/57f5aa5d9bf0e9aaf3952aeeba61d364aa0b5fed",
+            "uuid": "6CA37E0F-EF19-4152-B110-AEC2A43DB9A5",
+            "version": "iOS1.7.7",
+            "name": "我的作品",
+            "item": 5
+        };
+        var json1 = {
+            "labels": "未分类",
+            "layers": [{
+                "category": 0,
+                "resource": "http:\/\/design.zaowu.net.cn\/10000000002\/20150609\/6732de7f74a8923113eeba4495894c20ca782242",
+                "cx": 92.5,
+                "isUpload": true,
+                "width": 185,
+                "cy": 131,
+                "editable": false,
+                "type": 1,
+                "alignment": 0,
+                "templateDesign": 0,
+                "alpha": 1,
+                "height": 262,
+                "matrix": "[\n  1,\n  0,\n  0,\n  0,\n  1,\n  0,\n  0,\n  0,\n  1\n]",
+                "content": "http:\/\/design.zaowu.net.cn\/10000000002\/20150609\/e69b38ec896502ea79907081ef5ca7b0d0350d3d"
+            }, {
+                "category": 0,
+                "font": {
+                    "name": "Sean",
+                    "size": 8,
+                    "color": {
+                        "red": 0,
+                        "alpha": 255,
+                        "blue": 0,
+                        "green": 0
+                    }
+                },
+                "cx": 92.5,
+                "width": 185,
+                "cy": 92,
+                "editable": true,
+                "type": 0,
+                "length": 17,
+                "alignment": 1,
+                "templateDesign": 0,
+                "alpha": 1,
+                "height": 14,
+                "matrix": "[\n  1,\n  0,\n  0,\n  0,\n  1,\n  0,\n  0,\n  0,\n  1\n]",
+                "content": "I Love California"
+            }],
+            "pic": "http:\/\/design.zaowu.net.cn\/1009961\/20160525\/47721ce8bc961410afe18bc69941f026b0fad093",
+            "preview": "http:\/\/design.zaowu.net.cn\/1009961\/20160525\/a77827b1eac13a5f7f5a4dc21f830486a07589c0",
+            "version": "iOS1.7.7",
+            "name": "我的作品",
+            "item": 5
+        };
+        $(function() {
+
+
+
+
+            /*  $('canvas').addLayer({
+                type: 'rectangle',
+                fillStyle: '#585',
+                x: 100, y: 100,
+                width: 100, height: 50
+              }).drawLayers();
+              $('canvas').drawArc({
+                      fillStyle: 'black',
+                      x: 100,
+                      y: 100,
+                      radius: 50
+                  })
+                  .drawArc({
+                      fillStyle: '#36b',
+                      x: 300,
+                      y: 150,
+                      radius: 50
+                  });
+                  /*
+                /*$('canvas').drawLine({
+                      strokeStyle: '#000',
+                      strokeWidth: 3,
+                      x1: 11,
+                      y1: 11,
+                      x2: 111,
+                      y2: 111,
+                  });*/
+
+            var v_width = 375;
+            var v_height = 465;
+            var v_dx = 96;
+            var v_dy = 105;
+            var v_dw = 185;
+            var v_dh = 262;
+            //计算中心位置
+            v_x = v_width % 2 > 0 ? v_width / 2 + 1 : v_width / 2;
+            v_y = v_height % 2 > 0 ? v_height / 2 + 1 : v_height / 2;
+
+
+
+            // 开始 绘画
+            var can = document.getElementById("mydraw") ;
+            var myctx = can.getContext("2d");
+            var tarimg= document.createElement("img");
+            tarimg.src="http://design.zaowu.net.cn/admin/1431770217.87.png" ;
+            tarimg.onload = function () {
+              // 0.644582615490804,\n  0.1022868646931499,\n  -43.94663579516416,\n  -0.1022868646931499,\n  0.644582615490804,\n  -77.70338341377425,
+              // 水平 缩放  倾斜  平移   垂直   倾斜  缩放  平移
+              // transform a	水平缩放绘图 b	水平倾斜绘图 c	垂直倾斜绘图 d	垂直缩放绘图 e	水平移动绘图 f	垂直移动绘图
+                  myctx.transform(0.644582615490804,0.1022868646931499,-0.1022868646931499,0.644582615490804,-43.94663579516416,-77.70338341377425) ;
+                  myctx.drawImage(tarimg, 0,0, v_dw,v_dh);
+
+
+            }
+
+
+
+
+            // $("canvas").drawImage({
+            //     source: "http://design.zaowu.net.cn/admin/1438787891.94.png",
+            //     width: v_width,
+            //     height: v_height,
+            //     x: v_x,
+            //     y: v_y,
+            //     load: function() {
+            //         $("canvas").drawImage({
+            //             source: "http://design.zaowu.net.cn/1009961/20160525/1747675f99b1b58dd2e16b647f4b4cf900855c20",
+            //             x: v_x,
+            //             y: v_y,
+            //             height: 262,
+            //             width: 185,
+            //             load: function() {
+            //                 $("canvas").drawText({
+            //                     layer: true,
+            //                     height: 262,
+            //                     width: 185,
+            //                     fillStyle: 'transform: matrix(1, 0, 0, 1, 30, 30)',
+            //                     x: v_x,
+            //                     y: v_y ,
+            //                     fontSize: 25,
+            //                     fontFamily: 'huxiaobo-gdh',
+            //                     text: '点点滴滴',
+            //                     align: "center"
+            //
+            //                 });
+            //             }
+            //         });
+            //     }
+            // });
+
+
+
+
+        });
+    </script>
+
+</head>
+
+<body>
+    <canvas id="mydraw" height="900" width="900" style="background:#FFF">test</canvas>
+</body>
+
+</html>
